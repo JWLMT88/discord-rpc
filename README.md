@@ -19,7 +19,7 @@ Then, open the folder containing the script you want to use and run it using Pyt
 python script_name.py
 ```
 ## Available Scripts
-- **__example.py__** : This is a simple script that demonstrates how to set up and display a basic Rich Presence on Discord. You can use this script as a starting point for your own projects.
+- **__abelton.py__** : For more info open Ableton Directory
 
 - **__game_time.py__** : This script displays the amount of time you've spent playing a particular game on Discord. To use this script, you'll need to specify the game's name and the time you started playing.
 
