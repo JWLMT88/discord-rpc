@@ -46,7 +46,7 @@ If you have an idea for a new script or would like to improve an existing one, f
 - Connect to Discord API using the Presence class from pypresence, and set the start time to the current time.
 
 
-#### And that's it! This script continually checks if Ableton Live 11 Suite is running and updates the Discord status with the project name if it is.
+#### And that's it! This script continually checks if the programm is running and updates the Discord status with the project name if it is.
 
 ## License
 This repository is licensed under the MIT license. See the LICENSE file for more information.
