@@ -27,7 +27,6 @@ python ableton-discord-presence.py
 If you want to customize the buttons that are displayed on your Discord status, you can modify the **__btns__** variable in the **__ableton-discord-presence.py__** file. You can add or remove buttons as needed.
 
 ```Python
-Copy code
 btns = [
     {
         "label": "Live 11 Suite",
