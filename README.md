@@ -28,5 +28,32 @@ python script_name.py
 ## Contributing
 If you have an idea for a new script or would like to improve an existing one, feel free to submit a pull request! We're always looking for new ways to enhance the Discord experience.
 
+### Tutorial
+
+#### Import necessary libraries:
+
+- pypresence: for updating Discord status
+- random: for generating random numbers (unused in this script)
+- ctypes: for accessing Windows API functions
+- time: for getting the current time and waiting
+- os: for running system commands and clearing the console
+
+##### Set up variables:
+
+- application_id: the ID of the Discord application used to update status
+- title, program, and project: strings used to store window titles and project names
+- btns: a list of buttons displayed on the Discord status
+- Connect to Discord API using the Presence class from pypresence, and set the start time to the current time.
+
+#### Enter a while loop that runs indefinitely:
+- Use os.popen() to run the "tasklist" command and check if "Ableton Live 11 Suite" is in the output.
+- If it is, clear the console and print a message indicating that Ableton is running.
+- Define a function that uses the Windows API to get the title of the active window and extract the program and project names from it.
+- Call the function and update the Discord status with the program and project names, the buttons, and the start time.
+- If "Ableton Live 11 Suite" is not found in the output of the tasklist command, clear the console and print a message indicating that Ableton is not running.
+- Wait for 10 seconds before checking again.
+
+#### And that's it! This script continually checks if Ableton Live 11 Suite is running and updates the Discord status with the project name if it is.
+
 ## License
 This repository is licensed under the MIT license. See the LICENSE file for more information.
