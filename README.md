@@ -19,11 +19,11 @@ Then, open the folder containing the script you want to use and run it using Pyt
 python script_name.py
 ```
 ## Available Scripts
-- *example.py* : This is a simple script that demonstrates how to set up and display a basic Rich Presence on Discord. You can use this script as a starting point for your own projects.
+- **__example.py__** : This is a simple script that demonstrates how to set up and display a basic Rich Presence on Discord. You can use this script as a starting point for your own projects.
 
-- *game_time.py* : This script displays the amount of time you've spent playing a particular game on Discord. To use this script, you'll need to specify the game's name and the time you started playing.
+- **__game_time.py__** : This script displays the amount of time you've spent playing a particular game on Discord. To use this script, you'll need to specify the game's name and the time you started playing.
 
-- *spotify.py* : This script displays the song you're currently listening to on Spotify as your Discord Rich Presence. You'll need to have the Spotify desktop app installed on your system for this script to work.
+- **__spotify.py__** : This script displays the song you're currently listening to on Spotify as your Discord Rich Presence. You'll need to have the Spotify desktop app installed on your system for this script to work.
 
 ## Contributing
 If you have an idea for a new script or would like to improve an existing one, feel free to submit a pull request! We're always looking for new ways to enhance the Discord experience.
